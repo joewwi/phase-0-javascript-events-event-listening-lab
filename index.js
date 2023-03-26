@@ -1,11 +1,11 @@
 function addingEventListener() {
-    let input = document.querySelector('input#button');
+    let input = document.querySelector('#button');
 
-function clicked(){
-    console.log("Somebody clicked me!");
+function clickAlert(){
+    alert("I was clicked!");
 }
 
-input.addEventListener('click', clicked)
+input.addEventListener('click', clickAlert)
 }
 addingEventListener();
 
